@@ -1,0 +1,244 @@
+
+
+
+
+Waterfall model:-->
+
+	=> Other name of waterfall model is  linear 
+		sequential model
+	=> It is accomplish with all SDLC phases
+		Requirements, Analysis, Design, Coding,Testing,Release
+	=> In waterall model all developement phases
+		build in linear fashion [One after one]
+
+
+	Advantages:-->
+		=> Usefull to build known domain
+		=> Usefull to manage smaller projects
+		=> Low risk model
+
+	Disadvantages:-->
+		=> Not welcoming changes during developement
+		=> Can't run two phases parallel
+		=> Testing phase only start after development phase completed
+
+
+Incremental Model:-->
+		=> Other name of incremental model is
+			multi-waterfall life cycle model
+
+		=> Multiple developement life cycles
+			implement during this model
+
+		=> During this model software requirements
+			converted into smaller iterations
+			and each iteration follow all
+			SDLC phases to develop software
+
+		=> Second iteration  start based on first
+			iteration feedback
+
+
+		Advantages:-->
+			
+		=> Generates working software quickly and early 
+		   during the software life cycle.
+
+		=>  More flexible – less costly to change scope 
+		    and requirements.
+
+		=> Smaller iterations are easy to develop and
+			Test
+		
+		Disadvantages:-->
+		
+		=> Organization should recruite separate 
+			Risk analysis team to identify possible
+			risks at initial stage
+
+		=> Separate devops team required to manage
+			more iterations
+
+
+Spiral Model:-->
+		
+		=> It is a combination of waterfall model
+			and incremental model
+		=> Othername of spiral model is Bigbang model
+
+		=> Ogranization preffer this model to develop
+		   missionary projects. These projects start
+		   for different purpose and finally end with
+		   differnt purpose
+		
+		=> Each Spiral consists of a deliverable product
+		=> Feedback of each spiral is incorporated 
+			in the next spiral 
+		=> Customer can start using the system after 
+			every spiral
+		=> Each Spiral consists of a waterfall model
+			phases
+
+		
+		Advantages:-->
+			=> Quick software release in SDLC
+		
+		Dis-Advantages:-->
+			=> Highly expertise risk analysis team
+			   requied 
+			=> Costly model to use
+
+ProtoType model:-->
+
+		=> Organization follow prototype model
+			when client doesn't know any thing
+			about software developement.
+
+		=> During this model organization build
+			working prototypes based on initial
+			client requirements
+
+		=> The working prototypes helps customer
+			to ask original requirements
+
+		
+		Advatages:-->
+			
+			=> Requirements are frozen at early stage
+			
+			=> Working prototypes helps customer to 
+				visuvalise software requirements
+			=> Usefull when new domain projects development.
+
+		Dis-Advantages:-->
+		
+			=> It is difficult to maintain documentation
+				or designs when prototypes are changing
+				time to time
+
+
+Rapid Developemet Model[RAD]:-->
+		=> RAD is a high speed linear adoption model.
+			
+		=> Organization follow RAD model whenever end to 
+			end software need to develop with in shot
+			span of time.   
+
+		=> Where software need to develop in [30-90]
+			days period
+
+		=> During this model software is divided into
+			equal components and each component
+			separate team involve to finish quickly
+
+		=> Developers use reusable construction of programs
+			to develop software early.
+
+		Advantages :
+		  => Very short cycle time
+		  => Use of working components lead to minimum 
+			defects
+
+		Dis-advantages:-->
+		=> System softwares can't be modularized
+		
+
+
+V-Model:-->
+		=> Verificaton and validation model
+		=> V-Model give equal weight to testing
+			as compare with development
+		=> Testers start testing activities
+			early as compare to development
+
+		=> Early testing cut down defect cost
+
+
+	Verification Testing:-->
+
+		=> Also known as static Testing
+		=> It is a document level testing
+		   during this test testing team
+		   conduct reviews and walkthroughs
+		   on project documentation
+		=> It is a defect preventive approach.
+		=> Testing conduct before development
+		=> Testers check Are we developing right software ?
+
+
+	Validation Testing:-->
+		=> Also known as dynamic Testing
+		=> it is a software level testing
+		    during this test testing team
+		    validate developed software
+		    by operating it..
+		=> It is defect detective approach
+		=> Testers involve after development of software
+		=> Testers check is developed sofware
+		   meeting with client expectations.
+
+
+Agile model:-->
+	
+	=> An agile most important charecterstics it is	
+		based on iterations,During this model
+		software developed in number of iterations.
+
+	=> Each iteration in agile a small period of time
+	   where selected requirements can develop,test
+	   and release to the client	
+
+	=> During agile model large requirements converted
+		into small box sized requirements
+
+	=> Each iteration passes through all phases of 
+		SDLC
+
+	=> Agile title suggested from agility and adoptability
+	
+	=> Agile is a combination of prototype and Rapid development model
+
+	=> All designs are kept in stone and open at last minutes..
+
+	=> Each iteration is delivarable product so that client
+		can utitlize software features..
+	
+
+	Advantages of agile model:-->
+		
+	=> Instead of one time schedule, agile models involve in 
+	   multiple iterative development schedules that seek to 
+	   improve the output with every iteration.
+
+	=> Welcome change requirements during middle of the development
+	
+		
+
+
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+	
+		
