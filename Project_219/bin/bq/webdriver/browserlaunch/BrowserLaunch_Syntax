@@ -1,0 +1,20 @@
+Chrome browser launch:-->
+
+	System.setProperty("webriver.chrome.driver","path\\chromedriver.exe");
+	WebDriver driver=new ChromeDriver();
+
+
+Firefox browser launch:-->
+
+	System.setProperty("webriver.gecko.driver","path\\geckodriver.exe");
+	WebDriver driver=new FirefoxDriver();
+
+IE browser launch:-->
+
+	System.setProperty("webriver.ie.driver","path\\IEDriverServer.exe");
+	WebDriver driver=new InternetExplorerDriver();
+
+Edge browser launch:-->
+
+	System.setProperty("webriver.edge.driver","path\\msedgedriver.exe");
+	WebDriver driver=new EdgeDriver();
