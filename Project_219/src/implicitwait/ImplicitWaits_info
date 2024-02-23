@@ -1,0 +1,37 @@
+Thread.Sleep(ms):--->
+	is a java timeout command it won't specify timegap 
+	w.r.t application..
+
+	public void method1() throws InterruptedException
+	{
+		Thread.Sleep(5000);
+	}
+
+	Note:--> Thread.Sleep is a exceptional command to avoid runtime syntax error.
+		Add throws interruptedExceptiont to  method.
+
+
+Implicitwait:-->
+	* Implicit wait manage timegap w.r.t application.
+	* Implicit wait we define only once at browser launch time
+	
+	Implicit wait mainly categorized into 3 types
+		Implicitlywait
+		PageloadTimeout
+		scriptTimeout
+		
+	* Implicit wait enable timeout on Exception only. After enabled timeout Once expected
+	  object found in HTML source,It will continue execution without wait for timeout.
+
+	* Incase Expected behaviour not found until timeout completed. it
+	  throws exception. [NosuchElement Exception]
+	Syntax:-->
+		
+		//Set timeout until object load at document object model [DOM]
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(100));
+
+		//Set timeout until pageobjects load at browser window
+		driver.manage().timeouts().pageloadtimeout(Duration.ofSeconds(100));
+	
+		//Set timeout until asynchornized source to load at browser window
+		driver.manage().timeouts().scriptTimeout(Duration.ofSeconds(100));
