@@ -13,6 +13,7 @@ public class WrongElement
 		WebDriver driver=null;
 		try {
 			driver=new ChromeDriver();
+			System.out.println("Browser is Opened");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -27,18 +28,25 @@ public class WrongElement
 			
 			if(driver.getTitle().contains("Facebook"))
 			{
+				System.out.println("Page Verified");
 				try {
-					driver.findElement(By.id("email")).sendKeys("Admin");
+					driver.findElement(By.id("email")).sendKeys("Darshan");
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
-				
 			}
 			else
-				System.out.println("Title mismatch");
-			
+			{
+				System.out.println("page not verified");
+			}
 			
 		}
+		else
+		{
+			System.out.println("browser intitation failed");
+		}
+		
+		
 
 	}
 

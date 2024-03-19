@@ -6,7 +6,7 @@ public class Final_Try_Catch {
 		
 		try {
 		      int[] myNumbers = {1, 2, 3};   //Arrays
-		      System.out.println(myNumbers[5]); 
+		      System.out.println(myNumbers[5]);  //Wrong index
 		      
 		   } catch (Exception e) {
 		           System.out.println("Something went wrong.");
