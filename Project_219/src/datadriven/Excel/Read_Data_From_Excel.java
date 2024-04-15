@@ -1,22 +1,19 @@
 package datadriven.Excel;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-public class Read_Data_From_Excel {
+public class Read_Data_From_Excel 
+{
 
 	public static void main(String[] args) throws IOException {
 		
-		
 		FileInputStream fi=new FileInputStream("TestData//InputData.xlsx");
 		System.out.println("File located");
-		
 		
 		//Get Workbook
 		XSSFWorkbook book=new XSSFWorkbook(fi);
