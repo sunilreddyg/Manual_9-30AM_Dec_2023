@@ -1,0 +1,194 @@
+Agile Process:-->
+
+	=> Agile is a iterative developement model.
+	=> In agile total software divided into smaller stories.
+	=> A set of stories organization develop and release 
+		iteration wise.
+	=> An iteration is a partial release where selected
+		requirements develop and release to client.
+
+
+	What is advantage to client?.
+
+		=> Welcome chanage requriments even at developement.
+
+
+	sprint:-->
+		Sprint is a  time lock period where  few userstories 
+		developed end to end.
+		
+		What is the duration of sprint:-->
+			Mostly 1 week to 2 weeks
+
+		Note:--> Every successful sprint after client
+			 can utilize software and provide feedback.
+
+
+	Scrum:-->
+
+	=> Popular developement framework in agile..
+	=> other agile frameworks are 
+		kanban [Reporting framework]
+		FDD[Feature Driven Development]
+		BDD[Behaviour driven development]
+
+	Scrum Users:-->
+		1. Product Owner    [Business Analyst]
+		2. Scrum Master     
+		3. Developement Team  and  QA Team
+
+
+
+		In BDD and FDD framework ogranization follow usestories to
+		develop software features:-->
+		
+
+		[User stories are usefull to improve communication
+			between business team and technical team]
+
+		UserStory:-->
+		A small narration of  requirement what client is
+		expecting..
+
+		As a ------I want ------So That
+
+		
+   		 As a (who wants to accomplish something)
+    		 I want to (what they want to accomplish)
+    		 So that (why they want to accomplish that thing)
+
+
+		=> As a customer i want to add products to cart
+		=> As a Merchant i want to add new product So that 
+				user can purchase
+							
+	        Note:--> All user stories will be added to backup folder..
+	
+
+
+	===========================================================================
+	What is UseCase?.
+		A Specific Requirement Based on StakeHolder View.
+		=> It is a documented description it contains 
+ 			everything to develop and test software.
+
+			=> PreCondition to Follow
+			=> Post Condition to Follow
+			=> Actors [Persons involve in software usage]
+			=> Business Conditions and Special Requirements
+			=> Errors
+
+	========================================================================
+
+	Stage1:-->
+
+		=> Product owner prioritize user stories from
+		   backup folder.
+		=> Product owner ask development team to give
+			story points for each story to develop
+
+	 	What is Story points:-->
+			story points represent the effort 
+			to develop a story
+
+		Who provide this story point:-->
+
+			Everyone who involve into userstory developement 
+			[Developer, Tester, Operational Team, Metric,Devops ---etc]
+
+		What Goes Into a Story Point?
+
+			The amount of work to do
+			The complexity of the work
+			Any risk or uncertainty while doing the work
+
+
+				Developement :-->  5   *  8 ---> 40 hrs
+				Tester	     :-->  3   *  8 ---> 24 hrs
+				Operationals :-->  2   *  8 ---> 16 hrs
+
+		How story points are calculated:-->
+
+		=> usually each story point equals to  8 hours. 
+		=> It is subject to project and organization.
+
+	
+
+		[Dynamic planning/ High Level Planning]
+
+		
+		=> Scrum master create sprint and assign 
+			user stories to sprint
+
+		=> Sprint is a duration of small period of time where
+			all user stories to develop and test.
+	
+		=> Once user stories added to sprint Scrum master assign
+		   task to development and testing team
+
+
+		Stage2:-->
+
+		
+		=> After main task allocation scrum master ask team
+			memebers to sketch out their own taks
+
+		=> Deveoper and tester both write sub task and
+			and provide storypoints to each taks
+
+
+			Developer Sub task:-->
+				=> Design progrm using LLD diagram
+				=> Perform unit and integration testing
+
+			Tester Sub task:-->
+				=> Design Manaul Testcase for User story
+				=> Transform manual testcase into automation scripts
+				=> Run automation scripts in two regression cycles
+
+		=> Scrum master track day to day team work and download
+		   burndown charts to findout un accomplished tasks.
+		
+		
+		What is Burndown chart?
+
+			 => Burndown chart prepare by scrum master,
+	       		    it is usefull to track developer and Tester
+			    progress of work
+		Why burndown charts?
+		
+	    		=> Use the Burndown Chart to track the 
+			   total work remaining for a sprint, 
+			   and to project the likelihood of achieving 
+			   the sprint goal.
+ 
+			=> By tracking the remaining work throughout 
+	  	 	   the iteration, a team can manage its progress 
+	  	 	   and respond accordingly.
+
+			=> Incase of delay in work scrum master can remove
+			   blockers and help team members to finish their
+			   task intime..
+
+
+		How they track work ?
+
+		================================
+		Todo   ||   Progress   ||  Done
+		=================================
+
+		Note:--> After completing each task developer,
+			testengineer and other team memebers move 
+			all taks from Inprogress state to done state.
+
+			=> Before working on each task they drag
+			    Todo to Progress state and Drag to Done
+			    state once task is accomplished.....
+-------------------------------------------------------------------------->>
+
+
+
+
+
+
+
