@@ -42,5 +42,12 @@ public class Junit_Assertions
 		Assert.assertEquals("Test Found ","H0","Hi");
 		System.out.println("Testpass");
 	}
+	
+	@Test
+	public void test6() 
+	{
+		Assert.assertNotEquals(10, 9);
+		System.out.println("Testpass");
+	}
 
 }
